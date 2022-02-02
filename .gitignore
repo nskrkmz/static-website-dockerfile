@@ -1,0 +1,7 @@
+*.png
+*.ico
+index.html
+style/
+static/
+js/
+assets/
