@@ -25,11 +25,11 @@ docker build -t gcr.io/your-project-name/foo .
 docker container run --rm -i -t -p XX:8080 gcr.io/your-project-name/foo
 ```
 
-## Push the Google Container Regestery
+## Push to the Google Container Registry
 ```
 docker push gcr.io/your-project-name/foo
 ```
-## Deploy the Google Cloud Run (Requires Google Cloud SDK)
+## Deploy in the Google Cloud Run (Requires Google Cloud SDK)
 ```
 gcloud run deploy --image gcr.io/your-project-name/foo --allow-unauthenticated --platform-managed --region SELECTED-REGION
 ```
