@@ -31,5 +31,5 @@ docker push gcr.io/your-project-name/foo
 ```
 ## Deploy in the Google Cloud Run (Requires Google Cloud SDK)
 ```
-gcloud run deploy --image gcr.io/your-project-name/foo --allow-unauthenticated --platform-managed --region SELECTED-REGION
+gcloud run deploy --image gcr.io/your-project-name/foo --allow-unauthenticated --platform=managed --region SELECTED-REGION
 ```
